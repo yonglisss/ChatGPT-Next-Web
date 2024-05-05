@@ -66,27 +66,27 @@ Current time: {{time}}`;
 export const DEFAULT_MODELS = [
   {
     name: "gpt-4",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-0314",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-0613",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-32k",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-32k-0314",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-4-32k-0613",
-    available: false,
+    available: true,
   },
   {
     name: "gpt-3.5-turbo",
@@ -110,22 +110,22 @@ export const DEFAULT_MODELS = [
   },
   {
     name: "qwen-v1", // 通义千问
-    available: false,
+    available: true,
   },
   {
     name: "ernie", // 文心一言
-    available: false,
+    available: true,
   },
   {
     name: "spark", // 讯飞星火
-    available: false,
+    available: true,
   },
   {
     name: "llama", // llama
-    available: false,
+    available: true,
   },
   {
     name: "chatglm", // chatglm-6b
-    available: false,
+    available: true,
   },
 ] as const;
